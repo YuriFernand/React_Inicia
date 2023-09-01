@@ -4,14 +4,44 @@
     box-sizing: border-box;
 }
 
+.props{
+    position: relative;
+    left: 15vw;
+    top: 15vh
+}
 .menu{
-    height: 30vh;
-    background: purple;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    align-items: center;
-    color: white;
+  width: 100%;
+  height: 25vh;
+  background: rgb(191, 151, 231);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.titulo1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+.links > a {
+    background: none;
+    border: none;
+    text-Decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.input{
+    width: 100%;
+    max-width: 500px;
+    position: absolute;
+    transform: translate(0vw,6vh);
+    padding: 8px;
 }
